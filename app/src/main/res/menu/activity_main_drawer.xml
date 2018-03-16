@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:title=" ABOUT"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/events"
+            android:title="EVENTS"
+            android:icon="@drawable/itemlogo"/>
+
+
+        <item
+            android:id="@+id/chatroom"
+            android:title="CHAT ROOM"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/directions"
+            android:title="DIRECTIONS"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/mokshamap"
+            android:title="MOKSHA MAP"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/sponsors"
+            android:title="SPONSORS"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/team"
+            android:title="TEAM"
+            android:icon="@drawable/itemlogo"/>
+
+        <item
+            android:id="@+id/contactus"
+            android:title=" CONTACT US "
+            android:icon="@drawable/itemlogo"/>
+
+    </group>
+
+</menu>
